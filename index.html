@@ -1,87 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>Sandhiya Ilayarajan - Professional Resume</title>
- <style>
- body {
- font-family: Arial, sans-serif;
- background-color: #e6f2ff;
- color: #333;
- margin: 0;
- padding: 20px;
- }
- .header {
- text-align: center;
- padding: 20px 0;
- border-bottom: 2px solid #004080;
- }
- .header h1 {
- margin: 0;
- font-size: 2.5rem;
- }
- .header p {
- margin: 5px 0;
- font-size: 1.2rem;
- }
- .section {
- margin: 20px 0;
- }
- .section h2 {
- color: #004080;
- border-bottom: 1px solid #ccc;
- padding-bottom: 5px;
- }
- .section ul {
- list-style-type: disc;
- margin-left: 20px;
- }
- </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sandhiya Ilayarajan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6f2ff;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 2px solid #004080;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .header p {
+      margin: 5px 0;
+      font-size: 1.2rem;
+    }
+    .section {
+      margin: 20px 0;
+    }
+    .section h2 {
+      color: #004080;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .section ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    .interactive-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #004080;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .interactive-btn:hover {
+      background-color: #003366;
+    }
+  </style>
+  <script>
+    function showMessage() {
+      alert("Thank you for your interest in my resume! You can download it below.");
+    }
+  </script>
 </head>
 <body>
- <div class="header">
- <h1>Sandhiya Ilayarajan</h1>
- <p>Professional Resume</p>
- </div>
- <div class="section">
- <h2>Personal Information</h2>
- <p><strong>Age:</strong> 19</p>
- <p><strong>Email:</strong> sandhiya180905@gmail.com</p>
- </div>
- <div class="section">
- <h2>Objective</h2>
- <p>Dedicated and motivated individual with a passion for learning and professional growth. </div>
- <div class="section">
- <h2>Education</h2>
- <p><strong>Your Degree (e.g., BCA - 2nd Year)</strong></p>
- <p>Your College/University Name</p>
- </div>
- <div class="section">
- <h2>Technical Skills</h2>
- <ul>
- <li>Drawing</li>
- <li>Keyboard Typing</li>
- </ul>
- </div>
- <div class="section">
- <h2>Certificate Courses</h2>
- <ul>
- <li>Java</li>
- <li>CSS</li>
- </ul>
- </div>
- <div class="section">
- <h2>Projects</h2>
- <ul>
- <li>Project 1 - Short Description</li>
- <li>Project 2 - Short Description</li>
- <li>Project 3 - Short Description</li>
- </ul>
- </div>
- <div class="section">
- <h2>Contact Information</h2>
- <p>Email: sandhiya180905@gmail.com</p>
- <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in <p>GitHub: <a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile </div>
+  <div class="header">
+    <h1>Sandhiya Ilayarajan</h1>
+    <p>Professional Resume</p>
+  </div>
+
+  <div class="section">
+    <h2>Personal Information</h2>
+    <p><strong>Age:</strong> 19</p>
+    <p><strong>Email:</strong> sandhiya180905@gmail.com</p>
+  </div>
+
+  <div class="section">
+    <h2>Objective</h2>
+    <p>Dedicated and motivated individual with a passion for learning and professional growth.</p>
+  </div>
+
+  <div class="section">
+    <h2>Education</h2>
+    <p><strong>BCA - 2nd Year</strong></p>
+    <p>Your College/University Name</p>
+  </div>
+
+  <div class="section">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Drawing</li>
+      <li>Keyboard Typing</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Certificate Courses</h2>
+    <ul>
+      <li>Java</li>
+      <li>CSS</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li>Project 1 - Short Description</li>
+      <li>Project 2 - Short Description</li>
+      <li>Project 3 - Short Description</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Contact Information</h2>
+    <p><strong>Email:</strong> sandhiya180905@gmail.com</p>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a></p>
+  </div>
+
+  <div class="section">
+    <h2>Resume</h2>
+    <button class="interactive-btn" onclick="showMessage()">View Message</button>
+    <br>
+    <a class="interactive-btn" href="Sandhiya_Resume.pdf" download>Download Resume</a>
+  </div>
 </body>
 </html>
